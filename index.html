@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filter">
+            <label for="category">Filter by Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+            </select>
+        </div>
+        <div class="loading">Loading products...</div>
+        <div class="error" style="display: none;">Failed to load products. Please try again later.</div>
+        <div class="products"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
